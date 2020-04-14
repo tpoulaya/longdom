@@ -18,7 +18,7 @@ public class LoginPage {
 	WebDriver driver = null;
 	
 	public LoginPage(){
-		System.setProperty("webdriver.chrome.driver","D:\\Downloads\\chromedriver_win32_2_36\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",".\\Browser\\chromeDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	
