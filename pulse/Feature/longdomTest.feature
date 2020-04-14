@@ -5,5 +5,3 @@ Feature: Login to longdom
   @Login
   Scenario: Login to application
     Given Launch application
-    And Enter user credentials
-    Then Submit login page.
